@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Student Registration Form Using HTML </title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>
+                <h3>Personal Information</h3>
+            </legend>
+            <label for="fullname">Full Name :</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="studentid">Student ID :</label>
+            <input type="text" name="studentid" id="studentid" placeholder="Enter your student ID" required>
+            <br><br>
+            <label for="emailaddress">Email Address :</label>
+            <input type="email" name="emailaddress" id="emailaddress"  placeholder="Enter your email address" required>
+            <br><br>
+            <label for="phone">Phone Number :</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+            <br><br>
+            <label for="dob">Date of Birth :</label>
+            <input type="date" name="dob" id="dob" >
+            <br><br>
+            <label >Gender :</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+            <br><br>
+
+        </fieldset>
+        <fieldset>
+            <legend><h3>Academic Information</h3></legend>
+            <label for="dept">Department :</label>
+            <select name="dept" id="dept">
+                <option value="select" selected>Department</option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="bba">BBA</option>
+                <option value="english">English</option>
+                <option value="civil">Civil Engineering</option>
+            </select>
+            <br><br>
+            <label >Semester :</label>
+            <select name="semester" id="semester">
+                <option value="select" selected>Select a semester</option>
+                <option value="1st">1st Semester</option>
+                <option value="2nd">2nd Semester</option>
+                <option value="3rd">3rd Semester</option>
+                <option value="5th">5th Semester</option>
+                <option value="6th">6th Semester</option>
+                <option value="7th">7th Semester</option>
+                <option value="8th">8th Semester</option>
+                <option value="9th">9th Semester</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><h3>Skills</h3></legend>
+            <label>Select programming languages known :</label><br>
+            <input type="checkbox" name="skills" id="c" value="C">C<br>
+            <input type="checkbox" name="skills" id="cpp" value="C++">C++<br>
+            <input type="checkbox" name="skills" id="java" value="Java">Java<br>
+            <input type="checkbox" name="skills" id="python" value="Python">Python<br>
+            <input type="checkbox" name="skills" id="javascript" value="JavaScript">JavaScript
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Additional Information</h3></legend>
+            <label for="address">Address :</label>
+            <textarea name="address" id="address" rows="4" cols="50" placeholder="Enter your address"></textarea>
+            <br><br>
+            <label for="photo">upload photo :</label>
+            <input type="file" name="photo" id="photo">
+            <br><br>
+            <label for="comments">comments :</label>
+            <textarea name="comments" id="comments" rows="4" cols="50" placeholder="Enter any additional comments" maxlength="200"></textarea>  
+            <br><br>
+        </fieldset>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
