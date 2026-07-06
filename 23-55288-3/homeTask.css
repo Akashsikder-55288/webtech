@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbeeff;
+    padding: 20px;
+}
+
+.registration-form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border: 2px solid #90c2f0;
+    border-radius: 10px;
+    
+}
+
+fieldset {
+    border: 2px solid #90c2f0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f5faff;
+}
+
+legend h3 {
+    color: #ffffff;
+    background-color: #3d85c6;
+    margin: 0;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #274e6e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #90c2f0;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+
+input[type="file"] {
+    padding: 5px;
+}
+
+.btn-submit,
+.btn-reset {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.btn-submit {
+    background-color: #3d85c6;
+    color: #ffffff;
+}
+
+.btn-submit:hover {
+    background-color: #2e6ba1;
+}
+
+.btn-reset {
+    background-color: #e0e0e0;
+    color: #333333;
+}
+
+.btn-reset:hover {
+    background-color: #c7c7c7;
+}
